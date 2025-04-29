@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     // Replace with your free API key if needed
     const fetchStocks = async () => {
-      const KEY = apiKey;
+      const KEY = apiKey || "Ub6y9qakHpXv2nxtnC0VkWovAnx92GYo";
 
       try {
         const response = await fetch(
